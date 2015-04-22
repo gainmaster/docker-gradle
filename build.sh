@@ -9,7 +9,7 @@ if [[ -z $(which docker) ]]; then
     exit 2
 fi
 
-declare IMAGE_NAME="bachelorthesis/gradle"
+declare IMAGE_NAME="gainmaster/gradle"
 
 
 function build() {
