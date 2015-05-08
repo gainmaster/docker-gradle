@@ -1,4 +1,4 @@
-FROM gainmaster/java:jdk7-openjdk
+FROM gainmaster/java:latest
 MAINTAINER Tony Hesjevik <tony@hesjevik.no>
 
 ADD https://services.gradle.org/distributions/gradle-2.3-bin.zip /usr/share/java/
